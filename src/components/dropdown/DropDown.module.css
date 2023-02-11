@@ -1,0 +1,40 @@
+.arrow {
+   width: 100%;
+   position: relative;
+}
+
+.dropdown {
+   width: 100%;
+   background: #dedede;
+   color: #000;
+   margin-bottom: 7px;
+   padding: 8px;
+   border-radius: 8px;
+   position: relative;
+   text-align: end;
+}
+.drdtitle {
+   width: 100%;
+   position: absolute;
+   background: #fff;
+   color: #000;
+   margin: 0;
+   padding: 0;
+   border-radius: 8px;
+}
+.title:hover {
+   cursor: pointer;
+   background: #dedede;
+   border-radius: 8px;
+}
+.title {
+   padding-top: 100px;
+   padding: 8px;
+   margin: 0;
+}
+
+.drddiv {
+   display: flex;
+   flex-direction: column;
+   margin-top: 20px;
+}

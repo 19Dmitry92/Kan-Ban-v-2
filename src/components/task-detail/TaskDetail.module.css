@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Roboto&family=Yeseva+One&display=swap");
+
+.wrapper {
+   background: #fff;
+   border-radius: 8px;
+   padding: 28px;
+}
+
+.header {
+   display: flex;
+   flex-direction: column;
+   min-height: 75vh;
+}
+
+.title {
+   margin: 0;
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+
+   color: #000000;
+}
+
+.createdAt {
+   color: #737373;
+   font-style: italic;
+}
+
+.status {
+   color: #fff;
+   background: #465571;
+   font-weight: bold;
+   margin: 0;
+   padding: 8px 20px;
+   border-radius: 20px;
+}
+
+.label {
+   margin-bottom: 10px;
+}
+
+.select {
+   padding: 8px;
+   border-radius: 8px;
+}
+
+.homeLink {
+   display: block;
+   margin: -10px 0px 0px 0px;
+   text-decoration: none;
+   color: #737373;
+   font-size: 30px;
+}
+
+.homeLink:hover {
+   color: #000;
+}
+
+.emptyState {
+   text-align: center;
+}
+
+.emptyStateIcon {
+   width: 200px;
+}
+
+.innerHeader {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   border-radius: 5px;
+}
+
+.description {
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #000000;
+   margin: 0px;
+}
+
+.desc {
+   margin-top: 35px;
+}

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Roboto&family=Yeseva+One&display=swap");
+.footer {
+  min-height: 50px;
+  background: #0067a3;
+  color: #fff;
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.counts {
+  display: block;
+}
+
+.count {
+  position: relative;
+  
+}
+
+.count + .count::before {
+  display: block;
+  background: #fff;
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  left: -15px;
+  top: 0;
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.copy {
+  margin-left: auto;
+}
+
+.footerDiv {
+  text-align: center;
+}
+
+@media screen and (max-width: 530px) {
+  .copy {
+     display: none;
+  }
+  .footer {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 290px) {
+  .footer {
+    display: none;
+  }
+}

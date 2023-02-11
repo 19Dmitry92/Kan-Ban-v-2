@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Roboto&family=Yeseva+One&display=swap");
+
+.list {
+   width: 282px;
+   background: #ebecf0;
+   padding: 20px;
+   border-radius: 10px;
+   box-sizing: border-box;
+   margin: 15px;
+}
+
+.listsp {
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #000000;
+}
+
+.listTitle {
+   margin-top: 0;
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+}
+
+.task {
+   background: #ffffff;
+   color: #000000;
+   margin: 15px 0;
+   padding: 8px;
+   border-radius: 8px;
+}
+
+.task:hover {
+   text-decoration: underline;
+}
+
+.taskLink {
+   text-decoration: none;
+}
+
+.addButton {
+   background: none;
+   border: none;
+   appearance: none;
+   font-size: 15px;
+   color: #737373;
+   margin-top: 15px;
+   cursor: pointer;
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+}
+
+.addButtonNA {
+   background: none;
+   border: none;
+   appearance: none;
+   font-size: 15px;
+   color: #737373;
+   margin-top: 15px;
+   cursor: pointer;
+}
+
+.addButtonNA:hover {
+   color: #737373;
+}
